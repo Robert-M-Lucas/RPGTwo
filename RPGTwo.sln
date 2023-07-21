@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Common.Editor", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect", "Unity.2D.PixelPerfect.csproj", "{ef0bc513-51ed-8a8c-c0c7-941199bf6051}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7984a775-b463-2fd6-9d0b-d936a198f766}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Editor", "Unity.2D.PixelPerfect.Editor.csproj", "{eb7ca8c8-13c8-bdef-18a2-92767108f62b}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Sprite.Editor", "Unity.2D.Sprite.Editor.csproj", "{7c70fe4a-fcfb-6167-11c9-d3b0dcc5ed3a}"
@@ -98,8 +100,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras", "Unity.2D.Tilemap.Extras.csproj", "{f91832f1-2672-1d34-9180-b3c248f4b107}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wooshii.HierarchyDecorator", "Wooshii.HierarchyDecorator.csproj", "{ddfbb057-dce1-a386-4c41-81c7f89a8abd}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7984a775-b463-2fd6-9d0b-d936a198f766}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEditorBridge.005", "Unity.InternalAPIEditorBridge.005.csproj", "{a49a2208-63b9-ef0b-00f3-32fb91a29c34}"
 EndProject
@@ -244,6 +244,8 @@ Global
 		{98f790c4-4081-d2dd-58f0-48eb4eb1a014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ef0bc513-51ed-8a8c-c0c7-941199bf6051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ef0bc513-51ed-8a8c-c0c7-941199bf6051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7984a775-b463-2fd6-9d0b-d936a198f766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7984a775-b463-2fd6-9d0b-d936a198f766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{eb7ca8c8-13c8-bdef-18a2-92767108f62b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{eb7ca8c8-13c8-bdef-18a2-92767108f62b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7c70fe4a-fcfb-6167-11c9-d3b0dcc5ed3a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -256,8 +258,6 @@ Global
 		{f91832f1-2672-1d34-9180-b3c248f4b107}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ddfbb057-dce1-a386-4c41-81c7f89a8abd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ddfbb057-dce1-a386-4c41-81c7f89a8abd}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7984a775-b463-2fd6-9d0b-d936a198f766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7984a775-b463-2fd6-9d0b-d936a198f766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a49a2208-63b9-ef0b-00f3-32fb91a29c34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a49a2208-63b9-ef0b-00f3-32fb91a29c34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d8f67145-4e32-e7ec-57cf-05b2d2a2e443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
