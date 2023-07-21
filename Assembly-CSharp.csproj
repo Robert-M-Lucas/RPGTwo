@@ -117,6 +117,7 @@
      <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0" />
      <None Include="Library\PackageCache\com.unity.ide.rider@3.0.24\package.json" />
+     <None Include="Assets\test.txt" />
      <None Include="Library\PackageCache\com.unity.modules.video@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.test-framework@1.3.7\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0" />
@@ -164,6 +165,7 @@
      <None Include="Library\PackageCache\com.unity.feature.2d@2.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
      <Folder Include="Library\PackageCache\com.unity.2d.animation@10.0.2" />
+     <None Include="Assets\test2.shader" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\ValidationConfig.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
