@@ -87,6 +87,7 @@
      <Folder Include="Library\PackageCache\com.wooshii.hierarchydecorator@c5d7d76df5\HierarchyDecorator\Resources" />
      <Folder Include="Library\PackageCache\com.unity.2d.aseprite@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport" />
+     <None Include="Assets\test 3.shader" />
      <Folder Include="Library\PackageCache\com.unity.collections@1.2.4" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0" />
      <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.18\ValidationConfig.json" />
@@ -97,6 +98,7 @@
      <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\package.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\package.json" />
      <Folder Include="Library\PackageCache\com.unity.timeline@1.8.2" />
+     <None Include="Assets\test 2.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData.json" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0\package.json" />
