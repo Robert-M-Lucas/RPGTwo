@@ -10,7 +10,7 @@ public class FovScript : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float normFov = 135f;
     [SerializeField] private int rayCount = 500;
-    [SerializeField] private float rotation = 0f;
+    public float Rotation = 0f;
     
     public float ViewDistance = 50f;
 
@@ -29,11 +29,9 @@ public class FovScript : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        rotation += Time.deltaTime * 10;
-        
         float fov = normFov;
         angleStep = fov / rayCount;
-        float angle = -rotation + 90 + (fov / 2);
+        float angle = -Rotation + 90 + (fov / 2);
 
         Mesh mesh = new Mesh();
         meshFilter.mesh = mesh;
