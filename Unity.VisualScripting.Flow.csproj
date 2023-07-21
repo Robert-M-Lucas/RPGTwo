@@ -445,8 +445,8 @@
      <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\FlowGraphData.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Expression.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Framework\Codebase\MemberUnit.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Framework\Events\Lifecycle\Start.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Framework\Events\ManualEventUnit.cs" />
+     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Framework\Events\Lifecycle\Start.cs" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Framework\Math\Vector2" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Ports" />
      <Folder Include="Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Framework\Math" />

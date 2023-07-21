@@ -100,6 +100,7 @@
      <Folder Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0" />
      <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\package.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.5\package.json" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated" />
      <Folder Include="Library\PackageCache\com.unity.timeline@1.8.2" />
      <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData.json" />
@@ -169,6 +170,7 @@
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.24" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0\Tests" />
+     <Folder Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Flow" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.singularitygroup.hotreload@afc36b236c\Server" />
      <None Include="Library\PackageCache\com.unity.feature.2d@2.0.0\package.json" />
@@ -874,13 +876,13 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{bcc30b0c-9fe5-f8a9-9e31-622a538d9fbb}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.Aseprite.Common.csproj">
       <Project>{f6c7d2f0-e535-d30d-dd33-b6343a55b14d}</Project>
       <Name>Unity.2D.Aseprite.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{bcc30b0c-9fe5-f8a9-9e31-622a538d9fbb}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
       <Project>{a69fc0b6-15b7-d99f-6d13-736fc702b6ef}</Project>
@@ -922,10 +924,6 @@
       <Project>{abd2c38c-0c9c-14f5-83ad-36dd8a0a5f30}</Project>
       <Name>Unity.2D.Common.Path.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{98f790c4-4081-d2dd-58f0-48eb4eb1a014}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="SingularityGroup.HotReload.Runtime.Public.csproj">
       <Project>{a7589254-7035-ecbc-8459-273ddb57a806}</Project>
       <Name>SingularityGroup.HotReload.Runtime.Public</Name>
@@ -933,6 +931,10 @@
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{9a627073-9ae7-7a64-05fd-b7d192751097}</Project>
       <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{98f790c4-4081-d2dd-58f0-48eb4eb1a014}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{96f45b4d-c42a-714b-690a-8643633ae85a}</Project>
